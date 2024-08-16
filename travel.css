@@ -1,0 +1,80 @@
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    position: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.hero-section {
+    background-image: url('https://wanderland.blog/content/images/size/w2000/2023/08/DSC_0857-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.content-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    
+    
+}
+/* footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer p.small {
+    font-size: 0.875rem;
+}
+
+footer a.text-white {
+    color: #fff;
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+}
+
+footer a.text-white:hover {
+    color: #17a2b8;
+}
+
+footer .container {
+    max-width: 960px;
+}
+
+footer .row {
+    margin-bottom: 1rem;
+}
+
+footer .small.mb-0 {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
